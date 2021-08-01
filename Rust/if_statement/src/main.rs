@@ -3,7 +3,7 @@ fn main() {
 
     let x = 50;
 
-    if (x > 50) {
+    if x > 50 {
         println!("X is greater then 50. X is {}.", x);
     }
     else if x == 50 {
