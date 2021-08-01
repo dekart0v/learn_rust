@@ -5,7 +5,6 @@ fn main() {
 
     loop {
         i += 1;
-        println!("the value of N is {}", i);
 
         if i == 5 {
             continue; // back to the begining of the loop
@@ -14,5 +13,7 @@ fn main() {
         if i >= 10 { 
             break; // stop the loop
         }
+        
+        println!("the value of N is {}", i);
     }
 }
